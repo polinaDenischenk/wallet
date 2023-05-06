@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    height: 100%;
+    background-color: black;
+}
+
+body{
+    margin: 0;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+
+ul>li{
+    list-style: none;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    padding: 0px 10px;
+    margin-left: 10px;
+}
+
+.title{
+    color: beige;
+    font-size: 50px;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color: rgb(55, 55, 55);
+    border-radius: 5px;
+}
+
+#table-colum{
+    flex: 1;
+    padding: 0px 20px;
+}
+
+
+.table{
+    width: 500px;
+    text-align: center;
+    background-color: rgb(92, 92, 92);
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+.editor__input-name{
+    color: rgb(255, 255, 255);
+}
+
+
+.name{
+    font-size: 20px;
+    color: beige;
+}
+
+.category{
+    font-size: 20px;
+    color: beige;
+}
+
+.price{
+    font-size: 20px;
+    color: beige;
+}
+
+.editor_row{
+    color: beige;
+    font-size: 22px;
+}
